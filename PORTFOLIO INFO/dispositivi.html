@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> PORTFOLIO </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="portafoglio.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/213713bb48.js" crossorigin="anonymous"></script>
+	<div>
+		<ul class="navbar">
+			<li>
+				<a class="bho" href="index.html">
+					<div class="indexinfo">
+						<h2>PORTFOLIO INFORMATICA 5A SIA</h2>
+					</div>
+				</a>
+			</li>
+			<li><a href="reti.html"><i class="fa-solid fa-bars"></i>RETI INFORMATICHE</a></li>
+			<li><a class="active" href="dispositivi.html"><i class="fa-solid fa-bars"></i>DISPOSITIVI DI RETE</a></li>
+			<li><a href="commutazione.html"><i class="fa-solid fa-bars"></i>COMMUTAZIONE</a></li>	
+			<li><a href="azienda.html"><i class="fa-solid fa-bars"></i>AZIENDA</a></li>
+			<li><a href="indirizziip.html"><i class="fa-solid fa-bars"></i>INDIRIZZI IP</a></li>
+			<li><a href="sistemi.html"><i class="fa-solid fa-bars"></i>SISTEMA INFORMATIVO E INFORMATICO</a></li>
+			<li><a href="erpcrm.html"><i class="fa-solid fa-bars"></i>ERP E CRM</a></li>
+			<li><a href="olap.html"><i class="fa-solid fa-bars"></i>OLAP-OLTP-DW</a></li>
+			<li><a href="crowfunding.html"><i class="fa-solid fa-bars"></i>CROWFUNDING</a></li>
+			<li><a href="cloud.html"><i class="fa-solid fa-bars"></i>CLOUD COMPUTING</a></li>
+			<li><a href="ecommerce.html"><i class="fa-solid fa-bars"></i>E-COMMERCE</a></li>
+			<li><a href="iot.html"><i class="fa-solid fa-bars"></i>IOT</a></li>
+      <li><a href="Malware.html"><i class="fa-solid fa-bars"></i>MALWARE</a></li>
+		  <li><a href="cybersecurity.html"><i class="fa-solid fa-bars"></i>CYBERSECURITY</a></li>
+      <li><a href="crittografia.html"><i class="fa-solid fa-bars"></i>CRITTOGRAFIA</a></li>
+      <li><a href="spid.html"><i class="fa-solid fa-bars"></i>SPID</a></li>
+      <li><a href="pec.html"><i class="fa-solid fa-bars"></i>PEC</a></li>
+      <li><a href="fattura.html"><i class="fa-solid fa-bars"></i>FATTURA ELETTRONICA</a></li>
+      <li><a href="firmadigitale.html"><i class="fa-solid fa-bars"></i>FIRMA DIGITALE</a></li>
+		</ul>
+	</div>
+<div style="margin-left:26%;padding:1px 16px; height:1000px;">
+  <h3>🔌 DEFINIZIONE</h3>
+    <p>I dispositivi di rete sono strumenti utilizzati per facilitare la connessione, comunicazione e trasmissione di dati all’interno delle reti informatiche. Ogni dispositivo opera a uno o più livelli del modello <b>OSI</b>.</p>
+
+    <hr>
+    <h3>📶 LIVELLO FISICO - HUB</h3>
+    <p>L'<b>Hub</b> lavora al livello fisico e replica i segnali su tutte le porte:</p>
+    <ul>
+      <li>È semplice e poco costoso</li>
+      <li>Invia i dati a tutti i dispositivi → <b>problema di congestione</b> con molti utenti</li>
+      <li>Utilizzato in reti Ethernet a topologia a stella</li>
+    </ul>
+
+    <hr>
+    <h3>🔗 LIVELLO COLLEGAMENTO - SWITCH</h3>
+    <p>Lo <b>Switch</b> collega dispositivi nella stessa rete (LAN) e inoltra dati solo al nodo destinatario:</p>
+    <ul>
+      <li>Crea una tabella MAC associando dispositivi alle sue porte</li>
+      <li>Migliora prestazioni e sicurezza rispetto all’hub</li>
+      <li>Lavora a livello Data Link (Livello 2)</li>
+    </ul>
+
+    <hr>
+    <h3>🌐 LIVELLO RETE - ROUTER</h3>
+    <p>Il <b>Router</b> collega reti diverse e instrada i pacchetti tramite tabelle di routing:</p>
+    <ul>
+      <li>Usa <code>tracert</code> per tracciare il percorso dei pacchetti</li>
+      <li>Usa <code>route print</code> per visualizzare la tabella di routing</li>
+      <li>Può aggiornare dinamicamente le tabelle con protocolli specifici</li>
+    </ul>
+
+    <hr>
+    <h3>🌍 LIVELLO APPLICAZIONE - PROXY</h3>
+    <p>Un <b>Proxy</b> è un intermediario tra client e server. Il client invia le richieste al proxy, che poi le inoltra al server.</p>
+    <p><b>Proxy HTTP</b> è usato per:</p>
+    <ul>
+      <li><b>Connettività:</b> un solo computer connesso a internet fa da tramite per altri</li>
+      <li><b>Monitoraggio:</b> tiene traccia della navigazione</li>
+      <li><b>Filtro:</b> blocca siti secondo regole impostate</li>
+      <li><b>Privacy:</b> maschera l’IP del client</li>
+    </ul>
+
+    <hr>
+    <h3>🧱 GATEWAY <i class="fa-solid fa-dungeon"></i></h3>
+    <p>Un <b>Gateway</b> connette due reti con protocolli differenti, traducendoli. Può operare a qualsiasi livello OSI e può essere software o hardware.</p>
+
+    <hr>
+    <h3>🔥 FIREWALL <i class="fa-solid fa-house-fire"></i></h3>
+    <p>Il <b>Firewall</b> protegge la rete controllando il traffico in entrata e uscita:</p>
+    <ul>
+      <li>Divide la rete in <b>LAN</b> (interna) e <b>Internet</b> (esterna)</li>
+      <li>Può includere una zona <b>DMZ</b> per server pubblici</li>
+      <li>Può essere un router con software firewall installato</li>
+    </ul>
+    <p>Funziona tramite <b>regole</b> che autorizzano o bloccano pacchetti in base a:</p>
+    <ol>
+      <li>IP sorgente</li>
+      <li>IP di destinazione</li>
+      <li>Porta del servizio (es. 80 per HTTP, 443 per HTTPS)</li>
+    </ol>
+      <footer class="footer">
+        PORTFOLIO INFORMATICA 5A SIA SAMIR MARIOTTI
+      </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> PORTFOLIO </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="portafoglio.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/213713bb48.js" crossorigin="anonymous"></script>
+	<div>
+		<ul class="navbar">
+			<li>
+				<a class="bho" href="index.html">
+					<div class="indexinfo">
+						<h2>PORTFOLIO INFORMATICA 5A SIA</h2>
+					</div>
+				</a>
+			</li>
+			<li><a href="reti.html"><i class="fa-solid fa-bars"></i>RETI INFORMATICHE</a></li>
+			<li><a href="dispositivi.html"><i class="fa-solid fa-bars"></i>DISPOSITIVI DI RETE</a></li>
+			<li><a href="commutazione.html"><i class="fa-solid fa-bars"></i>COMMUTAZIONE</a></li>	
+			<li><a href="azienda.html"><i class="fa-solid fa-bars"></i>AZIENDA</a></li>
+			<li><a class="active" href="indirizziip.html"><i class="fa-solid fa-bars"></i>INDIRIZZI IP</a></li>
+			<li><a href="sistemi.html"><i class="fa-solid fa-bars"></i>SISTEMA INFORMATIVO E INFORMATICO</a></li>
+			<li><a href="erpcrm.html"><i class="fa-solid fa-bars"></i>ERP E CRM</a></li>
+			<li><a href="olap.html"><i class="fa-solid fa-bars"></i>OLAP-OLTP-DW</a></li>
+			<li><a href="crowfunding.html"><i class="fa-solid fa-bars"></i>CROWFUNDING</a></li>
+			<li><a href="cloud.html"><i class="fa-solid fa-bars"></i>CLOUD COMPUTING</a></li>
+			<li><a href="ecommerce.html"><i class="fa-solid fa-bars"></i>E-COMMERCE</a></li>
+			<li><a href="iot.html"><i class="fa-solid fa-bars"></i>IOT</a></li>
+      <li><a href="Malware.html"><i class="fa-solid fa-bars"></i>MALWARE</a></li>
+		  <li><a href="cybersecurity.html"><i class="fa-solid fa-bars"></i>CYBERSECURITY</a></li>
+      <li><a href="crittografia.html"><i class="fa-solid fa-bars"></i>CRITTOGRAFIA</a></li>
+      <li><a href="spid.html"><i class="fa-solid fa-bars"></i>SPID</a></li>
+      <li><a href="pec.html"><i class="fa-solid fa-bars"></i>PEC</a></li>
+      <li><a href="fattura.html"><i class="fa-solid fa-bars"></i>FATTURA ELETTRONICA</a></li>
+      <li><a href="firmadigitale.html"><i class="fa-solid fa-bars"></i>FIRMA DIGITALE</a></li>
+		</ul>
+	</div>
+  <div style="margin-left:26%;padding:1px 16px;height:1000px;">
+    <h3>📡 Cosa sono gli Indirizzi IP</h3>
+    <p>Gli <b>indirizzi IP</b> (Internet Protocol) sono identificatori univoci utilizzati per individuare dispositivi connessi a una rete. Ogni dispositivo connesso deve possedere un indirizzo IP per poter comunicare con altri dispositivi.</p>
+  
+    <p>Un indirizzo IP è composto da <b>32 bit</b> (divisi in 4 byte) ed è rappresentato in formato decimale, con valori che vanno da <b>0 a 255</b>, separati da punti (es: 192.168.1.1).</p>
+  
+    <p>L'indirizzo IP è suddiviso in due parti:</p>
+    <ul>
+      <li><b>Network-ID</b> 🡪 Identifica la rete a cui appartiene il dispositivo.</li>
+      <li><b>Host-ID</b> 🡪 Identifica il dispositivo (host) specifico all'interno della rete.</li>
+    </ul>
+  
+    <hr>
+  
+    <h3>🗂️ Classi di Indirizzi IP</h3>
+    <p>Gli indirizzi IP sono suddivisi in classi, ognuna con un proprio intervallo e caratteristiche specifiche.</p>
+  
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>Classe</th>
+        <th>Range</th>
+        <th>Utilizzo</th>
+      </tr>
+      <tr>
+        <td><b>A</b></td>
+        <td>0.0.0.0 – 127.255.255.255</td>
+        <td>Reti di grandi dimensioni (grandi aziende)</td>
+      </tr>
+      <tr>
+        <td><b>B</b></td>
+        <td>128.0.0.0 – 191.255.255.255</td>
+        <td>Reti medie (università, enti pubblici)</td>
+      </tr>
+      <tr>
+        <td><b>C</b></td>
+        <td>192.0.0.0 – 223.255.255.255</td>
+        <td>Reti piccole (scuole, abitazioni, uffici)</td>
+      </tr>
+      <tr>
+        <td><b>D</b></td>
+        <td>224.0.0.0 – 239.255.255.255</td>
+        <td>Multicast (trasmissioni speciali)</td>
+      </tr>
+      <tr>
+        <td><b>E</b></td>
+        <td>240.0.0.0 – 255.255.255.255</td>
+        <td>Riservati per scopi sperimentali</td>
+      </tr>
+    </table>
+  
+    <hr>
+  
+    <h3>🧮 Netmask</h3>
+    <p>La <b>netmask</b> (maschera di rete) è un valore che serve per separare la parte di indirizzo relativa alla rete da quella relativa all’host. In altre parole, specifica quanti bit dell’indirizzo IP rappresentano la rete e quanti rappresentano il dispositivo all’interno della rete.</p>
+  
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>Classe</th>
+        <th>Struttura</th>
+        <th>Netmask</th>
+      </tr>
+      <tr>
+        <td><b>A</b></td>
+        <td>N.H.H.H<br>Il primo byte rappresenta la rete</td>
+        <td>255.0.0.0</td>
+      </tr>
+      <tr>
+        <td><b>B</b></td>
+        <td>N.N.H.H<br>I primi due byte rappresentano la rete</td>
+        <td>255.255.0.0</td>
+      </tr>
+      <tr>
+        <td><b>C</b></td>
+        <td>N.N.N.H<br>I primi tre byte rappresentano la rete</td>
+        <td>255.255.255.0</td>
+      </tr>
+    </table>
+  
+    <hr>
+  
+    <h3>🔁 Subnetting</h3>
+    <p>Il <b>subnetting</b> è una tecnica che consente di suddividere una rete in più sottoreti (subnet), sfruttando parte dei bit dell’host per definire nuove reti. Questo è utile quando si vuole gestire reti complesse e separare logicamente i dispositivi.</p>
+  
+    <p>Quando la classe IP non è sufficiente a gestire la rete desiderata, si usa il subnetting per:</p>
+    <ul>
+      <li>Creare un numero definito di sottoreti.</li>
+      <li>Gestire un numero specifico di host per ciascuna sottorete.</li>
+    </ul>
+  
+    <h4>⚠️ Limiti del Subnetting</h4>
+    <p>Il problema principale è l’utilizzo di una maschera a lunghezza fissa: tutte le sottoreti create hanno la stessa dimensione. Questo può portare a sprechi di indirizzi inutilizzati.</p>
+  
+    <p>Per superare questo limite si usa il <b>VLSM (Variable Length Subnet Masking)</b>, che permette di assegnare maschere di sottorete con lunghezze diverse in base alle necessità.</p>
+  
+    <footer class="footer">
+      PORTFOLIO INFORMATICA 5A SIA SAMIR MARIOTTI
+    </footer>
+  </div>  
+</body>
+</html>
